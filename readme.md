@@ -49,13 +49,24 @@ pip install -r requirements.txt
 
 ## 📖 Usage
 
-### Step 1: Run the main program
+### Step 1: Download models
+if you just want to run this code provided models, please download:
+ [Vosk](https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip) 
+ [Vosk](https://alphacephei.com/vosk/models/vosk-model-small-cn-0.22.zip) 
+ ***DOWNLOAD THEM AND PUT THEM INTO 'model' file
+ 
+ [HuggingFace](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn/tree/main) 
+ ***MAKE A DIRECTORY 'wav2vec2-chinese' in 'model' file, and put it into it
+
+or if you want the whole model zoo, you can find it below.
+
+### Step 2: Run the main program
 
 ```bash
 python main.py
 ```
 
-### Step 2: Input bilibili live Room ID and Choose Model
+### Step 3: Input bilibili live Room ID and Choose Model
 
 ```bash
 input bilibili room number/请输入Bilibili直播房间号: 1
@@ -68,7 +79,7 @@ select model/请选择识别模型：
 your input model: 3
 ```
 
-### Step 3: Start Recognition
+### Step 4: Start Recognition
 
 ```bash
 直播流地址：https://...
