@@ -27,7 +27,7 @@
 
 
 
-![Live Demo]\(./ezgif-1058bfb2b77c30.gif)
+![Live Demo](./ezgif-1058bfb2b77c30.gif)
 
 
 
