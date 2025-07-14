@@ -54,11 +54,15 @@ if you just want to run this code provided models, please download:
  [Vosk](https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip) 
  [Vosk](https://alphacephei.com/vosk/models/vosk-model-small-cn-0.22.zip) 
  
- ***DOWNLOAD THEM AND PUT THEM INTO 'model' file
+ ***Please CREATE A FOLDER named `model` in the project root directory and put them inside:  
+ For example:
+ - `model/vosk-model-small-en-us-0.15`
  
  [HuggingFace](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn/tree/main) 
  
- ***MAKE A DIRECTORY 'wav2vec2-chinese' in 'model' file, and put it into it
+ ***CREATE A FOLDER 'wav2vec2-chinese' in 'model' file, and put the trained models package into it
+ For example:
+ - `model/wav2vec2-chinese/config.json`
 
 or if you want the whole model zoo, you can find it below.
 
@@ -118,10 +122,10 @@ English pretrained: [https://huggingface.co/facebook/wav2vec2-base-960h](https:/
 
 **3. xfyun（科大讯飞）Online Speech Recognition**\
 xfyun is a powerful cloud-based ASR engine developed by iFLYTEK (科大讯飞), providing real-time speech-to-text conversion with high accuracy for both Chinese and English.\
-Unlike offline models, xfyun requires API credentials and Internet connection, and it's suitable for low-latency and high-accuracy live transcription tasks.\
+in this project, since it is online, we don't need any models downloaded, just run the main.py and choose it.
 Website：[https://www.xfyun.cn/services/online\_asr](https://www.xfyun.cn/services/online_asr)
 
-Usage requires registering an API key on the iFLYTEK open platform, and this project already includes basic integration logic in `xf_recognizer.py`.
+A wider usage requires registering an API key on the iFLYTEK open platform, and this project already includes basic integration logic in `xf_recognizer.py`.
 
 ---
 
