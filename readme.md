@@ -53,9 +53,11 @@ pip install -r requirements.txt
 if you just want to run this code provided models, please download:
  [Vosk](https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip) 
  [Vosk](https://alphacephei.com/vosk/models/vosk-model-small-cn-0.22.zip) 
+ 
  ***DOWNLOAD THEM AND PUT THEM INTO 'model' file
  
  [HuggingFace](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn/tree/main) 
+ 
  ***MAKE A DIRECTORY 'wav2vec2-chinese' in 'model' file, and put it into it
 
 or if you want the whole model zoo, you can find it below.
