@@ -6,7 +6,7 @@
 
 ## Features / 功能介绍
 
-### This project aims to help people who watch live streams but cannot hear the audio — such as people with hearing-issue or users in environments where sound cannot be played.  At the same time, it aims to improve the subtitle alignment speed and recognition accuracy, making it a better experience. It mainly focused on:
+This project aims to help people who watch live streams but cannot hear the audio — such as people with hearing-issue or users in environments where sound cannot be played.  At the same time, it aims to improve the subtitle alignment speed and recognition accuracy, making it a better experience. It mainly focused on:
 
 - 🔊 **Auto Live Audio Extraction/自动获取直播音频流(b站)**\
   Automatically fetches the audio stream from a Bilibili livestream via room ID.
