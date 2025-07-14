@@ -36,11 +36,7 @@
 ## 🎓 Requirements
 
 - Python 3.10+
-- `ffmpeg` installed and in PATH
-- Python packages: `vosk`, `transformers`, `soundfile`, `requests`
-
 Install dependencies:
-
 ```bash
 pip install -r requirements.txt
 ```
